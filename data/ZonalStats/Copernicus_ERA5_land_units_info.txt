@@ -1,0 +1,68 @@
+Copernicus ERA5 - Land monthly averaged data from 1981 to present - units & additional info.
+
+Bilbliography ref for 2019 global: Muñoz Sabater, J., (2019): ERA5-Land monthly averaged data from 1981 to present. Copernicus Climate Change Service (C3S) Climate Data Store (CDS). (06/01/2021), 10.24381/cds.68d2bb30
+
+Bilbliography ref for 2019 subset: Muñoz Sabater, J., (2019): ERA5-Land monthly averaged data from 1981 to present. Copernicus Climate Change Service (C3S) Climate Data Store (CDS). (16/03/2021), 10.24381/cds.68d2bb30
+
+Bilbliography ref for 2020 subset (2mtemp, precip, evaporation, lai low, lai high, wind u, wind v): Muñoz Sabater, J., (2019): ERA5-Land monthly averaged data from 1981 to present. Copernicus Climate Change Service (C3S) Climate Data Store (CDS). (20/04/2021), 10.24381/cds.68d2bb30
+
+Bilbliography ref for 2020 subset (total runoff, skin resevoir content, surface pressure): Muñoz Sabater, J., (2019): ERA5-Land monthly averaged data from 1981 to present. Copernicus Climate Change Service (C3S) Climate Data Store (CDS). (07/05/2021), 10.24381/cds.68d2bb30
+
+
+PLEASE READ OTHER TEXT FILES BEFORE USE
+
+
+
+**These covariates come from the MONTHLY AVERAGED REANALYSIS dataset and have a native resolution of aprroximately 9km at the equator.
+
+**Covariate measurents are monthly averages from daily data, thus, represent a daily average per month.
+
+**Covariates which are accumulations - such as precipitation & evaporation had measurements taken at the 24th hour of each day within a month (e.g. how much rain fell in 24 hrs), then an average across all days in said month creates a daily average per month.
+
+**Covariates 'Total Precipitation' and 'Total Runoff' represents depth in metres. This is the depth of the water if it were spread evenly across the grid cell.
+
+
+
+
+COVARIATES USED FOR 2019 ZONAL STATISTICS:
+
+Covariate:                       Native Measurment Unit:      Additional info:
+
+ 
+2m Temperature                   Kelvin                       Temperature at 2m above land surface. Subtract 273.15 to convert values to Centigrade. THIS HAS BEEN DONE FOR THE ZONAL STATS IN THIS FOLDER.
+
+Total Evaporation                m of water/day               Negative values indicate water evaporated, positive values indicate condensation.
+
+Precipitation                    m-depth/day                  Total of all precipitation.
+
+Leaf Area Index h                m2 m-2                       One half total green leaf area per unit horizontal ground surface area for high vegetation.
+
+Leaf Area Index l                m2 m-2                       One half total green leaf area per unit horizontal ground surface area for low vegetation.
+
+10m Wind u                       m s-1                        Eastward windspeed at 10m height. Can be combined with Northward windspeed to find speed and direction of 10m horizontal wind.
+
+10m Wind v                       m s-1                        Northward windspeed at 10m height. Can be combined with Eastward windspeed to find speed and direction of 10m horizontal wind.
+
+
+
+COVARIATES USED for 2020 ZONAL STATISTICS:
+
+2m Temperature                   Kelvin                          Temperature at 2m above land surface. Subtract 273.15 to convert values to Centigrade. THIS HAS BEEN DONE FOR THE ZONAL STATS IN THIS FOLDER.
+
+Total Evaporation                m of water                      Accumulated water which has evaporated from the Earth's surface. Negative values indicate water evaporated, positive values indicate condensation.
+
+Precipitation                    m-depth (avg. over pixel)       Total of all precipitation.
+
+Leaf Area Index h                m2 m-2                          One half total green leaf area per unit horizontal ground surface area for high vegetation.
+
+Leaf Area Index l                m2 m-2                          One half total green leaf area per unit horizontal ground surface area for low vegetation.
+
+10m Wind u                       m s-1 (metres/second)           Eastward windspeed at 10m height. Can be combined with Northward windspeed to find speed and direction of 10m horizontal wind.
+
+10m Wind v                       m s-1 (metres/second)           Northward windspeed at 10m height. Can be combined with Eastward windspeed to find speed and direction of 10m horizontal wind.
+
+Total Runoff                     m-depth (avg. over pixel)       Combination of both surface and subsurface runoff.
+
+Surface Pressure                 Pa (Pascals)                    Force per unit area of the air on surface of land, sea and inland water. Can be combined with temperature to discover air density.
+
+Skin Resevoir Content            m of water                      Amount of water in the vegetation canopy and/or in a thin layer on the soil. Represents amount of rain intercepted by foliage and water from dew. Water leaves skin resevoir by evaporation.

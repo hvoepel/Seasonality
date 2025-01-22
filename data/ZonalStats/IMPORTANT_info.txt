@@ -1,0 +1,35 @@
+These stats were extracted using shapefiles from GADM and represent such boundaries at L1, folliwing projection into a projected coordinate system specific to each country.
+Each shapefile is from GADM version 3.4 and should not be re-distributed or used comercially.
+Written 05/01/2021.
+
+THE FOLLOWING APPLIES TO BOTH 2019 AND 2020 ZONAL STATISTICS.
+
+Previous seasonality work had removed inland waterbodies from shapefiles prior to extraction, this work uses GADM shapefiles which have NOT removed waterbodies.
+
+Country        Date shp downloaded      Number of admin units extracted              Total possible units          Units missed during extraction
+
+KEN                01/12/20                         47                                          47                                0                   
+RWA                16/11/20                         5                                           5                                 0           
+TZA                16/11/20                         30                                          30                                0                           
+UGA                16/11/20                         58                                          58                                0                       
+MOZ                13/11/20                         11                                          11                                0
+BWA                27/11/20                         12                                          16                                4 (BWA.3_1, BWA.6_1, BWA.10_1 were each too small)
+AGO                27/11/20                         18                                          18                                0
+NAM                27/11/20                         13                                          13                                0
+ZWE                27/11/20                         10                                          10                                0
+ZMB                27/11/20                         10                                          10                                0 
+ZAF                27/11/20                         9                                           9                                 0 
+EGY                15/12/20                         27                                          27                                0 
+LYB                15/12/20                         22                                          22                                0
+CMR                02/03/21                         10                                          10                                0
+NGA                02/03/21                         37                                          37                                0
+GAB                02/03/21                         9                                           9                                 0 
+BFA                02/03/21                         13                                          13                                0
+BEN                02/03/21                         11                                          12                                1 (BEN.8_1, too small)
+GHA                02/03/21                         10                                          10                                0 
+TGO                02/03/21                         5                                           5                                 0
+MAR                15/12/20                         15                                          15                                0
+CIV                02/03/21                         14                                          14                                0
+SEN                02/03/21                         14                                          14                                0
+MLI                02/03/21                         9                                           9                                 0
+NER                02/03/21                         8                                           8                                 0
