@@ -1,0 +1,25 @@
+Copernicus ERA5 - Land monthly averaged data from 1981 to present - units & additional info.
+
+Bilbliography ref: Muñoz Sabater, J., (2019): ERA5-Land monthly averaged data from 1981 to present. Copernicus Climate Change Service (C3S) Climate Data Store (CDS). (06/01/2021), 10.24381/cds.68d2bb30
+
+
+
+
+
+
+Covariate:                       Native Measurment Unit:      Additional info:
+
+ 
+2m Temperature                   Kelvin                       Subtract 273.15 to convert values to Centigrade. THIS HAS BEEN DONE FOR THE ZONAL STATS IN THIS FOLDER.
+
+Total Evaporation                m of water                   Negative values indicate water evaporated, positive values indicate condensation.
+
+Precipitation                    m-depth                      Total of all precipitation.
+
+Leaf Area Index h                m2 m-2                       One half total green leaf area per unit horizontal ground surface area for high vegetation.
+
+Leaf Area Index l                m2 m-2                       One half total green leaf area per unit horizontal ground surface area for low vegetation.
+
+10m Wind u                       m s-1                        Eastward windspeed at 10m height. Can be combined with Northward windspeed to find speed and direction of 10m horizontal wind.
+
+10m Wind v                       m s-1                        Northward windspeed at 10m height. Can be combined with Eastward windspeed to find speed and direction of 10m horizontal wind.
